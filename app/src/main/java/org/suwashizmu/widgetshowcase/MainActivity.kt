@@ -1,6 +1,7 @@
 package org.suwashizmu.widgetshowcase
 
 import android.os.Bundle
+import androidx.appcompat.app.AppCompatActivity
 
 class MainActivity : AppCompatActivity() {
 
