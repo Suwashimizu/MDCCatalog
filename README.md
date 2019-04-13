@@ -59,3 +59,56 @@ strokeWidthは初期値0pdなのでストロークを有効にしたい時は値
 ## ViewDragHelper
 DragでViewを動かしたい場合、その処理を移譲できる
 https://medium.com/eureka-engineering/android%E3%81%AEviewdraghelper%E3%82%92%E4%BD%BF%E3%81%A3%E3%81%A6youtube-soundcloud%E3%81%AE%E3%82%88%E3%81%86%E3%81%AA%E3%82%A2%E3%83%8B%E3%83%A1%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3%E3%82%92%E5%AE%9F%E8%A3%85%E3%81%99%E3%82%8B-8d4ea7684165
+
+
+## TextFields
+
+https://github.com/material-components/material-components-android/blob/master/docs/components/TextInputLayout.md
+
+## OutlineBox
+
+styleにOutlinedBoxをセットする
+パスがWidgetで始まるので間違わないこと
+
+```xml
+ <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+
+            android:id="@+id/textInput1Layout2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+    />
+```
+
+## CornerRadius
+
+まとめては設定できないみたい
+
+- app:boxCornerRadiusTopStart
+- app:boxCornerRadiusTopEnd
+- app:boxCornerRadiusBottomStart
+- app:boxCornerRadiusBottomEnd
+
+## Text
+
+- android:hint
+- app:hintEnabled
+
+- app:errorEnabled
+- app:helperTextEnabled 機能しない？
+- app:helperText Layoutの下にテキストを表示できる
+
+- app:counterEnabled 文字をカウントしてくれる,絵文字は2でカウントされた✊
+- app:counterMaxLength
+
+- boxStrokeColor
+- boxStrokeWidth
+
+## 以下はalpha版で使用可能
+
+アイコン系
+
+- app:endIconDrawable
+- app:endIconContentDescription
+- app:endIconMode
