@@ -17,12 +17,18 @@ styleとプロパティを組合わせてデザインを柔軟に変える事が
 FillButtonでは背景が?attr/colorAccent,テキストはwhite
 UnfilledButtonでは背景が透明,テキストが?attr/colorAccent
 
-## styles
+## Styles
 
-- Widget.MaterialComponents.Button
-- Widget.MaterialComponents.Button.OutlinedButton : ボーダー付きボタン
-- Widget.MaterialComponents.Button.TextButton : 塗りつぶしなしのボタン
-- Widget.MaterialComponents.Button.UnelevatedButton
+| Style                                                  | 効果                |
+|:-------------------------------------------------------|:------------------|
+| Widget.MaterialComponents.Button                       | 標準のボタン            |
+| Widget.MaterialComponents.Button.Icon                  | アイコン付き標準のボタン      |
+| Widget.MaterialComponents.Button.OutlinedButton        | ボーダー付きボタン         |
+| Widget.MaterialComponents.Button.OutlinedButton.Icon   | アイコン付きボーダー付きボタン   |
+| Widget.MaterialComponents.Button.TextButton            | 塗りつぶしなしのボタン       |
+| Widget.MaterialComponents.Button.TextButton.Icon       | アイコン付き塗りつぶしなしのボタン |
+| Widget.MaterialComponents.Button.UnelevatedButton      | 高さのないボタン          |
+| Widget.MaterialComponents.Button.UnelevatedButton.Icon | アイコン付き高さのないボタン    |
 
 
 ### Stroke
@@ -31,7 +37,7 @@ UnfilledButtonでは背景が透明,テキストが?attr/colorAccent
 `app:strokeWidth`:ストロークの幅
 strokeWidthは初期値0pdなのでストロークを有効にしたい時は値を入れること
 
-### icon
+### Icon
 
 `app:icon`:ボタンにアイコンを表示する
 `app:iconPadding`:パディング
