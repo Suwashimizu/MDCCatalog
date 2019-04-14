@@ -65,6 +65,9 @@ https://medium.com/eureka-engineering/android%E3%81%AEviewdraghelper%E3%82%92%E4
 
 https://github.com/material-components/material-components-android/blob/master/docs/components/TextInputLayout.md
 
+Style一覧
+https://github.com/material-components/material-components-android/blob/master/lib/java/com/google/android/material/textfield/res-public/values/public.xml
+
 ## OutlineBox
 
 styleにOutlinedBoxをセットする
@@ -102,13 +105,17 @@ styleにOutlinedBoxをセットする
 - app:counterEnabled 文字をカウントしてくれる,絵文字は2でカウントされた✊
 - app:counterMaxLength
 
+- boxBackgroundColor Boxの背景色
+
 - boxStrokeColor
 - boxStrokeWidth
+
+- hintAnimationEnabled 
 
 ## 以下はalpha版で使用可能
 
 アイコン系
 
-- app:endIconDrawable
+- app:endIconDrawable 指定なしだと丸に囲まれたxアイコン(テキストクリア)
 - app:endIconContentDescription
 - app:endIconMode
